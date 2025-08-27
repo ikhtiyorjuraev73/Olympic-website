@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ro'yxatdan o'tish</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="auth-container">
+    <div class="info">
+      <h2>Khiso Olimpiadasi</h2>
+      <p>Olimpiadalarda qatnashing, orzular sari yo'l oching!</p>
+      <p>Bilimlaringizni sinab ko'ring va o'zingizni kashf eting!</p>
+      <p>Har bir sinov – yangi marralarga yo'l!</p>
+    </div>
+    <form class="form" action="#" method="post">
+      <h3>Ro'yxatdan o'tish</h3>
+      <div class="form-row">
+        <input type="text" name="firstname" placeholder="Ism" required>
+        <input type="text" name="lastname" placeholder="Familiya" required>
+        <input type="text" name="middlename" placeholder="Otasining ismi" required>
+        <select name="class" required>
+          <option value="" disabled selected>Sinfni tanlang</option>
+          <option>5-sinf</option>
+          <option>6-sinf</option>
+          <option>7-sinf</option>
+          <option>8-sinf</option>
+          <option>9-sinf</option>
+          <option>10-sinf</option>
+          <option>11-sinf</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <input type="tel" name="phone" placeholder="Telefon raqami" required>
+        <select name="region" required>
+          <option value="" disabled selected>Hududni tanlang</option>
+          <option>Toshkent</option>
+          <option>Samarqand</option>
+          <option>Farg'ona</option>
+        </select>
+        <select name="district" required>
+          <option value="" disabled selected>Tuman tanlang</option>
+          <option>Chilonzor</option>
+          <option>Yunusobod</option>
+        </select>
+        <select name="school" required>
+          <option value="" disabled selected>Maktabni tanlang</option>
+          <option>1-maktab</option>
+          <option>2-maktab</option>
+        </select>
+      </div>
+      <button type="submit" class="primary-btn">Davom etish</button>
+      <p class="switch">Agar shaxsiy akkaunt yo'q bo'lsa, shu yerdan <a href="login.html">kirish</a>.</p>
+    </form>
+  </section>
+</body>
+</html>
